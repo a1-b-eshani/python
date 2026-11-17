@@ -15,7 +15,7 @@ print(df.head())
 print(df['budget_millions'])
 df['status']=np.where(df['budget_millions']>150,'hit','flop')
 print(df['status'])
-print(df.drop('movie_id'))
+print(df.drop(columns=['movie_id']))
 print(df.head())
 df['imdb_rating']=df['imdb_rating'].fillna(df['imdb_rating'].mean())
 
