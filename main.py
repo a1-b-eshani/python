@@ -1,4 +1,4 @@
-### shopping bill ###
+#croma product details
 
 product_name = "laptop"
 price = 45000
